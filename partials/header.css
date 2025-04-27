@@ -9,7 +9,8 @@
 
 .elementor-661 .elementor-element.elementor-element-41215c6:not(.elementor-motion-effects-element-type-background),
 .elementor-661 .elementor-element.elementor-element-41215c6>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-primary);
+    /* background-color: var(--e-global-color-primary); */
+    background: linear-gradient(90deg, #F78D20 0%, #C5282C 100%);
 }
 
 .elementor-661 .elementor-element.elementor-element-41215c6 {

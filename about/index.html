@@ -1040,125 +1040,357 @@
 					</div>
 				</div>
 			</section>
+
+			<style>
+				.eficiencia {
+					padding: 50px 20px;
+				  }
+				  
+				  .eficiencia .container {
+					max-width: 1200px;
+					margin: 0 auto;
+				  }
+				  
+				  .eficiencia .section-title {
+					font-size: 2rem;
+					margin-bottom: 40px;
+					max-width: 800px;
+					text-align: center;
+					color: #222;
+					margin-left: auto;
+					margin-right: auto;
+				  }
+				  
+				  .eficiencia .cards {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 30px;
+					justify-content: center;
+				  }
+				  
+				  .eficiencia .card {
+					background: #f9f9f9;
+					border: 1px solid #ddd;
+					padding: 30px;
+					flex: 1 1 45%;
+					max-width: 550px;
+					box-sizing: border-box;
+					border-radius: 8px;
+					transition: box-shadow 0.3s ease;
+				  }
+				  
+				  .eficiencia .card:hover {
+					box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+				  }
+				  
+				  .eficiencia .card-subtitle {
+					font-size: 1.3rem;
+					margin-bottom: 15px;
+					color: var(--e-global-color-accent); /* cor primária do Elementor */
+				  }
+				  
+				  .eficiencia .card-description {
+					padding-left: 20px;
+					list-style-type: disc;
+				  }				  
+			</style>
+			<section class="eficiencia">
+				<div class="container">
+				  <h2 class="section-title">
+					Maximizando ao máximo a eficiência e confiabilidade dos equipamentos.
+				  </h2>
+			  
+				  <div class="cards">
+					<div class="card">
+					  <h4 class="card-subtitle">
+						Maximizando o tempo de operação e reduzindo as paradas não programadas (LPO) associadas a falhas nos equipamentos das instalações superiores (topsides).
+					  </h4>
+					  <ul class="card-description">
+						<li>Seu equipamento tem uma chance maior de permanecer em excelente estado se você realizar tanto a manutenção preventiva quanto a proativa de forma oportuna.</li>
+						<li>A IPL conta com profissionais experientes em FMEA (Análise de Modos de Falha e Efeitos) para contribuir na manutenção da confiabilidade dos equipamentos.</li>
+					  </ul>
+					</div>
+			  
+					<div class="card">
+					  <h4 class="card-subtitle">
+						Planejamento e programação eficazes.
+					  </h4>
+					  <ul class="card-description">
+						<li>Demonstrando prontidão no que envolve a execução de paradas e reinicializações (priorizando e, em seguida, agendando).</li>
+						<li>Entregando a conclusão do trabalho dentro do prazo estabelecido.</li>
+						<li>A IPL é composta por planejadores e administradores de CMMS (Sistema de Gerenciamento de Manutenção Computadorizado).</li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			</section>
 			
-			<!-- <section
-				class="elementor-section elementor-top-section elementor-element elementor-element-608d72c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-				data-id="608d72c7" data-element_type="section">
+
+			<style>
+				.processo-faturamento {
+					padding: 60px 20px;
+					background: #f5f7fa;
+				  }
+				  
+				  .processo-faturamento .container {
+					max-width: 1200px;
+					margin: 0 auto;
+					text-align: center;
+				  }
+				  
+				  .processo-faturamento .section-title {
+					font-size: 2rem;
+					margin-bottom: 50px;
+					max-width: 700px;
+					margin-left: auto;
+					margin-right: auto;
+					color: #222;
+				  }
+				  
+				  .steps-wrapper {
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-start;
+					flex-wrap: wrap;
+					gap: 30px;
+				  }
+				  
+				  .step {
+					flex: 1 1 18%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					text-align: center;
+				  }
+				  
+				  .circle {
+					width: 60px;
+					height: 60px;
+					border-radius: 50%;
+					background-color: var(--e-global-color-primary);
+					color: white;
+					font-size: 20px;
+					font-weight: bold;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					margin-bottom: 15px;
+				  }
+				  
+				  .step-text {
+					font-size: 1rem;
+					color: #333;
+				  }
+				  
+				  .step-text small {
+					font-size: 0.8rem;
+					color: #666;
+				  }				  
+			</style>
+			<section class="processo-faturamento">
+				<div class="container">
+				  <h2 class="section-title">
+					Diagrama do processo de configuração de faturamento aplicável na organização IPL
+				  </h2>
+			  
+				  <div class="steps-wrapper">
+					<div class="step">
+					  <div class="circle">1</div>
+					  <p class="step-text">Receber RFQ<br><small>(Solicitação de Cotação)</small></p>
+					</div>
+			  
+					<div class="step">
+					  <div class="circle">2</div>
+					  <p class="step-text">Submeter QO<br><small>(Ordem de Cotação)</small></p>
+					</div>
+			  
+					<div class="step">
+					  <div class="circle">3</div>
+					  <p class="step-text">Receber P.O.<br><small>(Ordem de Compra)</small></p>
+					</div>
+			  
+					<div class="step">
+					  <div class="circle">4</div>
+					  <p class="step-text">Planejar serviço<br><small>relacionado ao P.O.</small></p>
+					</div>
+			  
+					<div class="step">
+					  <div class="circle">5</div>
+					  <p class="step-text">Timesheets e<br><small>Submissão da fatura</small></p>
+					</div>
+				  </div>
+				</div>
+			</section>
+			
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-2da5207 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+				data-id="2da5207" data-element_type="section">
+				<div class="elementor-background-overlay"></div>
 				<div class="elementor-container elementor-column-gap-default">
+					<style>
+						.elementor-675 .elementor-element.elementor-element-299bbae.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated {
+							align-content: flex-start !important;
+							align-items: flex-start !important;
+						}
+						.elementor-675 .elementor-element.elementor-element-2da5207 > .elementor-container > .elementor-column > .elementor-widget-wrap {
+							align-content: start;
+							align-items: start;
+						}
+					</style>
 					<div
-						class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b7c8ae5"
-						data-id="1b7c8ae5" data-element_type="column">
+					style="position: relative;"
+						class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-299bbae"
+						data-id="299bbae" data-element_type="column">
 						<div class="elementor-widget-wrap elementor-element-populated">
-							<section
-								class="elementor-section elementor-inner-section elementor-element elementor-element-2fcc477d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-								data-id="2fcc477d" data-element_type="section">
-								<div class="elementor-container elementor-column-gap-no">
-									<div
-										class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-22098cd7"
-										data-id="22098cd7" data-element_type="column">
-										<div class="elementor-widget-wrap elementor-element-populated">
-											<div
-												class="elementor-element elementor-element-74d568a5 jkit-equal-height-disable elementor-widget elementor-widget-jkit_image_box"
-												data-id="74d568a5" data-element_type="widget" data-widget_type="jkit_image_box.default">
-												<div class="elementor-widget-container">
-													<div
-														class="jeg-elementor-kit jkit-image-box style-default elementor-animation- jeg_module_675_8_6756cc4d5f130">
-														<div class="image-box-header elementor-animation-"><img decoding="async"
-																src="../wp-content/uploads/ipl/WhatsApp Image 2024-12-06 at 11.30.06 (1).jpeg"
-																alt="industrial factory worker working in metal manufacturing industry"></div>
-														<div class="image-box-body">
-															<div class="body-inner">
-																<h2 class="body-title icon-position-before">MANUTENÇÃO DE SISTEMAS CRÍTICOS</h2>
-																<div class="body-description">Garantimos a integridade e eficiência operacional com
-																	serviços especializados em manutenção de sistemas elétricos, mecânicos e de controle.
-																	A segurança e a qualidade são nossas prioridades.</div>
-																<div class="body-button">
-																	<div class="button-box icon-position-after">
-																		<div class="button-wrapper"><a href="#">SAIBA MAIS<i aria-hidden="true"
-																					class="jki jki-right-arrow-light"></i></a></div>
-																	</div>
-																</div>
-
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-52ce5c23"
-										data-id="52ce5c23" data-element_type="column">
-										<div class="elementor-widget-wrap elementor-element-populated">
-											<div
-												class="elementor-element elementor-element-3b447f6e jkit-equal-height-disable elementor-widget elementor-widget-jkit_image_box"
-												data-id="3b447f6e" data-element_type="widget" data-widget_type="jkit_image_box.default">
-												<div class="elementor-widget-container">
-													<div
-														class="jeg-elementor-kit jkit-image-box style-default elementor-animation- jeg_module_675_9_6756cc4d60a07">
-														<div class="image-box-header elementor-animation-"><img decoding="async"
-																src="../wp-content/uploads/ipl/WhatsApp Image 2024-12-06 at 11.30.06.jpeg"
-																alt="Industrial engineer work on site. engineer visit and inspection site engineer at industrial site.">
-														</div>
-														<div class="image-box-body">
-															<div class="body-inner">
-																<h2 class="body-title icon-position-before">INSPEÇÃO DE INTEGRIDADE DE ATIVOS</h2>
-																<div class="body-description">Realizamos inspeções técnicas rigorosas para garantir a
-																	longevidade e a confiabilidade das infraestruturas, prevenindo falhas e promovendo
-																	soluções sustentáveis.</div>
-																<div class="body-button">
-																	<div class="button-box icon-position-after">
-																		<div class="button-wrapper"><a href="#">SAIBA MAIS<i aria-hidden="true"
-																					class="jki jki-right-arrow-light"></i></a></div>
-																	</div>
-																</div>
-
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div
-										class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7872724f"
-										data-id="7872724f" data-element_type="column">
-										<div class="elementor-widget-wrap elementor-element-populated">
-											<div
-												class="elementor-element elementor-element-5636a58d jkit-equal-height-disable elementor-widget elementor-widget-jkit_image_box"
-												data-id="5636a58d" data-element_type="widget" data-widget_type="jkit_image_box.default">
-												<div class="elementor-widget-container">
-													<div
-														class="jeg-elementor-kit jkit-image-box style-default elementor-animation- jeg_module_675_10_6756cc4d61d93">
-														<div class="image-box-header elementor-animation-"><img decoding="async"
-																src="../wp-content/uploads/ipl/WhatsApp Image 2024-12-06 at 11.30.07 (1).jpeg"
-																alt="Mature workman in hardhat and workwear fixing shaft of industrial machine"></div>
-														<div class="image-box-body">
-															<div class="body-inner">
-																<h2 class="body-title icon-position-before">SERVIÇOS DE ENGENHARIA E CONSTRUÇÃO</h2>
-																<div class="body-description">Oferecemos soluções completas em engenharia e construção,
-																	desde soldagem e limpeza industrial até projetos de infraestrutura, com foco em
-																	inovação e excelência operacional.</div>
-																<div class="body-button">
-																	<div class="button-box icon-position-after">
-																		<div class="button-wrapper"><a href="#">SAIBA MAIS<i aria-hidden="true"
-																					class="jki jki-right-arrow-light"></i></a></div>
-																	</div>
-																</div>
-
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
+							<div class="elementor-element elementor-element-b99a317 elementor-widget elementor-widget-image" style="position: sticky !important; top: 200px !important;"
+								data-id="b99a317" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async"
+										src="/wp-content/uploads/ipl/security.jpg"
+										loading="lazy" /> </div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ac18086"
+						data-id="ac18086" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-7d254be elementor-widget elementor-widget-heading"
+								data-id="7d254be" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h5 class="elementor-heading-title elementor-size-default">A SEGURANÇA NÃO É NEGOCIÁVEL</h5>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-c6ee302 elementor-widget elementor-widget-heading"
+								data-id="c6ee302" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">Zero INCIDENTES É O ALCANÇÁVEL</h2>
+								</div>
+							</div>
+							<div
+								class="elementor-element elementor-element-da44926 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+								data-id="da44926" data-element_type="widget" data-widget_type="divider.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-divider">
+										<span class="elementor-divider-separator">
+										</span>
 									</div>
 								</div>
-							</section>
+							</div>
+							<div class="elementor-element elementor-element-7ff00f8 elementor-widget elementor-widget-text-editor"
+								data-id="7ff00f8" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p>
+										Nenhum funcionário é contratado pela IPL sem antes passar por treinamento de segurança e ser devidamente certificado, enfatizando que a segurança deve estar acima de todas as prioridades. Portanto, nenhuma tarefa é executada se for considerada insegura, até que um plano de mitigação de riscos seja desenvolvido.
+									</p>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-7ff00f8 elementor-widget elementor-widget-text-editor"
+								data-id="7ff00f8" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<p>
+										Independentemente do tipo de risco, a ação comum a ser tomada é desenvolver uma análise detalhada de segurança do trabalho, utilizando a ferramenta de identificação de riscos, com o plano de mitigação de riscos bem estruturado.
+									</p>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-7ff00f8 elementor-widget elementor-widget-text-editor"
+								data-id="7ff00f8" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container">
+									<img decoding="async"
+									style="max-width: 400px;"
+										src="/wp-content/uploads/ipl/signs-1.png"
+										loading="lazy" /> </div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</section> -->
+			</section>
+
+			<section
+				class="elementor-section elementor-top-section elementor-element elementor-element-2da5207 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+				data-id="2da5207" data-element_type="section">
+				<div class="elementor-background-overlay"></div>
+				<div class="elementor-container elementor-column-gap-default">
+					<div
+						class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ac18086"
+						data-id="ac18086" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<!-- <div class="elementor-element elementor-element-7d254be elementor-widget elementor-widget-heading"
+								data-id="7d254be" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h5 class="elementor-heading-title elementor-size-default">A SEGURANÇA NÃO É NEGOCIÁVEL</h5>
+								</div>
+							</div> -->
+							<div class="elementor-element elementor-element-c6ee302 elementor-widget elementor-widget-heading"
+								data-id="c6ee302" data-element_type="widget" data-widget_type="heading.default">
+								<div class="elementor-widget-container">
+									<h2 class="elementor-heading-title elementor-size-default">
+										EMPREGOS, PRÉ-QUALIFICAÇÃO e REQUISITOS
+									</h2>
+								</div>
+							</div>
+							<div
+								class="elementor-element elementor-element-da44926 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+								data-id="da44926" data-element_type="widget" data-widget_type="divider.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-divider">
+										<span class="elementor-divider-separator">
+										</span>
+									</div>
+								</div>
+							</div>
+							<style>
+								.requirements-list{
+									list-style-type: disc;
+									padding-left: 20px !important;
+								}
+
+								.requirements-list li {
+									margin-bottom: 20px;
+								}
+							</style>
+							<div class="elementor-element elementor-element-7ff00f8 elementor-widget elementor-widget-text-editor"
+								data-id="7ff00f8" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-widget-container text">
+									<ul class="requirements-list">
+										<li>Treinamento de segurança obrigatório</li>
+										<li>Competência em identificação e mitigação de riscos</li>
+										<li>Conformidade com os requisitos de licenciamento</li>
+										<li>Os funcionários têm o poder de interromper trabalhos inseguros.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+					<style>
+						.elementor-675 .elementor-element.elementor-element-299bbae-req.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated {
+							align-content: center !important;
+							align-items: center !important;
+						}
+						.elementor-675 .elementor-element.elementor-element-2da5207 > .elementor-container > .elementor-column > .elementor-widget-wrap {
+							align-content: center;
+							align-items: center;
+						}
+					</style>
+					<div
+					style="position: relative;"
+						class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-299bbae-req"
+						data-id="299bbae" data-element_type="column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-b99a317 elementor-widget elementor-widget-image" style="position: sticky !important; top: 200px !important;"
+								data-id="b99a317" data-element_type="widget" data-widget_type="image.default">
+								<div class="elementor-widget-container">
+									<img decoding="async"
+										src="/wp-content/uploads/ipl/requirements.png"
+										loading="lazy" /> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
 			<section
 				class="elementor-section elementor-top-section elementor-element elementor-element-2da5207 elementor-section-content-middle elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 				data-id="2da5207" data-element_type="section">
@@ -1350,7 +1582,7 @@
 																	class="fas fa-envelope"></i>support@ipl.com</a><span
 																class="jkit-dual-button-middle-text">Ou</span><a href="#"
 																class="jkit-dual-btn jkit-dual-button-two icon-position-before"><i aria-hidden="true"
-																	class="fas fa-phone-alt"></i>  924 716 762 / 
+																	class="fas fa-phone-alt"></i>  940 538 783 / 
 921 700 818</a></div>
 													</div>
 												</div>
